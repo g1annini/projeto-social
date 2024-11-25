@@ -10,11 +10,14 @@
 <body>
     <h1></h1>
     <main>
-        <section id="telefone">
-            <iframe src="home.html" name="tela" id="tela" frameborder="0">
-                Seu navegador não é compatível com isso.
-            </iframe>
-
+        <picture>
+            <section id="telefone">
+                <source media="(max-width: 450px)" srcset="imagens/frame-iphone-pequeno.png">
+                <source media="(max-width: 1080px)" srcset="imagens/frame-iphone.png">
+                <iframe src="home.html" name="tela" id="tela" frameborder="0">
+                    Seu navegador não é compatível com isso.
+                </iframe>
+        </picture>
         </section>
         <section id="redes-sociais">
             <a href="home.html" target="tela"><img src="imagens/logo-home.jpg" alt="Home"></a><br>
